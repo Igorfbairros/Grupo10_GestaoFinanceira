@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logado{
+    height: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffafa;
+    display: flex;
+    flex-direction: column;
+}
+/*
+#principal {
+    height: 30em;
+    display: flex;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    min-width: 30%;
+}
+*/
+.recepcao {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px 0px 0px 20px;
+    color: lightseagreen;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.navbar{
+    background-color: lightseagreen;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+.navbar-brand{
+    font-family: 'Lobster', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 10em;
+   
+    
+}
+.card{
+    justify-content: flex-start;
+}
+.text-light{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    
+}
+img {
+    width: 18em;
+    align-self: center;
+    image-orientation: from-image;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cadastrar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.w-70 {
+    Display: flex;
+    Flex-direction: column;
+    Justify-content: center;
+    align-items: center;
+
+}
+
+.formulario {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.form {
+    flex-direction: column;
+    justify-content: center;
+
+}
+.form-label{
+    text-align: left;
+      
+    margin-left: 10px;
+   
+    
+}
+.mb-3{
+    flex-direction: column;
+    
+}
+.titulologin {
+    padding-top: 20 20 0 0;
+    
+}
+
+.titulologin> :h1 {
+    font: bold;
+
+}
+
+.grupologin {
+    width: 60%;
+
+}
+.col{
+   padding: 0;
+   align-self:stretch;
+}
+.btn {
+    text-align: center;
+    align-self: center;
+    width: 55%;
+    margin: 10px;
+    background-color: lightseagreen;
+    border: 0;
+}
+.btn-plus{
+   border: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    
+}
+.btn:hover {
+    background-color: darkturquoise;
+
+}
+
+.input-group-text {
+    border: 0em;
+    background-color: transparent;
+}
+.fa-circle-plus{
+    font-size: 30px;
+}
+.fa-solid {
+    color: lightseagreen;
+
+}
+.fa-dollar-sign{
+    padding: 10px;
+}
+.fa-key{
+    padding: 10px;
+}
+.fa-user-large{
+    padding: 10px;
+}
+.fa-envelope{
+    padding: 10px;
+}
+.h1 {
+    font-family: 'Lobster', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 4em;
+    
+}
